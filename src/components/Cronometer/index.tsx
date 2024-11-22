@@ -5,7 +5,7 @@ import style from './Cronometer.module.scss';
 export default function Cronometro() {
   return (
     <div className={style.cronometro}>
-      <p className={style.titulo}>Escolha um card e inicie o Cronômetro</p>
+      <p className={style.titulo}>Escolha um item e inicie o Cronômetro</p>
       <div className={style.relogioWrapper}>
         <Relogio />
       </div>
